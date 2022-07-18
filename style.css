@@ -1,0 +1,52 @@
+nav {
+background-color: #17179b;
+color: ghostwhite;
+padding: 1vh ;
+font-family: 'Times New Roman', Times, serif;
+border-bottom: 3px solid black;
+border-top: 3px solid black;
+border-left: 3px solid black;
+border-right: 3px solid black;
+font-size: x-large;
+} 
+nav h1{
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+
+div p {
+  text-align: center; 
+  align-items: center;
+}
+
+.footer{
+  background-color:#17179b ;
+  min-height: 20vh;
+}
+
+
+body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0; 
+}
+ 
+.d-flex{
+  display: flex;
+  flex-direction: row;
+}
+
+main{
+  flex-grow: 1;
+  padding: 10px;
+  width: 70%;
+}
+ aside{
+  font-weight: bold;
+  flex-direction: column;
+ }
+
